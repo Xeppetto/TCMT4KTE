@@ -1,0 +1,36 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "프로젝트",
+    "3,1": "대분류",
+    "5,1": "중분류",
+    "7,1": "소분류"
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//VgKOMwFoD+rJTrdS/mnyqMbDw3a461P1XiZ+HbvZUVRjU0nljpTPRpgID9rF/mJO/2UpokQqJWyB67znyCPeJ306FlH6mmAJG94rcYMxjNrKTHw8dFunKKwkbrcKKe4fKCtRYE5iq9lPTHxwQlUwMpaWKqRxv4XY1I+Q5/VrO7OVQy+agkfBf0FUa4aSpglY7uxEJp8h//1oW2la4r9mgrYQrLIp0jHpJ1HUwd4Fmyh4bE6eSnUYOS8JHmomHNk9jYRoztZ18SKfd1Dklidg5vKUfWqWdERUS2JPFuGiwTSRqahTZg4UGWjJQW3b9xJvcr5FKWpt5ECC42PqrFrDz+iAMQpz9Se5WpaehA8+jA4t3gqbjGprOQ+HqAbmq/3W4jm4uxq0/9mXs5oaVJpVARlYDLeP0//p//kmNPCot/t8b4qk0fR3FBG7rU49A6EuAPPcDCpOVulXvB3J532Auc131QDNrQvKQmyy43vlgJUjodlNEjtRadAyyHb0Fc7EMBba3w6y2HsC5xwq45igMfkgoKVdElKCNDykTR2rUvGG6bYIqZocDG1egrw/55tI5qJa7a9l2cwa51uf5/WFGRoziggTsQ8DkNlsL1GwmH/fyd3GzZGgNdVwJ07tgoL55K66QhEF2o0EJhKxztuJNPrX0TSRPLrW1wLLowmuPFzczd3eCmdaH4ISUT1wxxh2/g5nGTVRVCal67ACMEplaD+77xtGwJVdftGYgv091YiFLhQp1rv4Q8Y9hn/hPVjxplpOhrLbZu1NwVHBuxaxsH09e5swWx7+UKhkUYhnZp0HeIrcb++33bVLe6pBJhGzYIPSbsDm62WkFmfuHWgLikziPUzfK13D3LQslgiA236Z7n6fNH3oPW+i0+bzEunAknmQaZ1kBySLeW2GXvJIsQ==|920

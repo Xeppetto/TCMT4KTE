@@ -1,0 +1,891 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 25,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 500.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      }
+    },
+    "Count": 26
+  },
+  "Values": {
+    "1,4": "브라우저 선택",
+    "1,6": "ALL",
+    "3,0": "우선\r\n순위",
+    "3,1": "브라우저 별 체크 항목",
+    "3,2": "IE",
+    "3,4": "Chrome",
+    "3,6": "Edge",
+    "3,7": "Firefox",
+    "4,2": 10,
+    "4,3": 11,
+    "4,4": "12.34.56",
+    "4,5": "12.34.",
+    "21,5": "결과 제출"
+  },
+  "AttachInfos": {
+    "1,6": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_BottomLine_Normal7",
+        "Items": [
+          {
+            "Value": "ALL",
+            "DisplayValue": "전체"
+          },
+          {
+            "Value": "CH",
+            "DisplayValue": "Chrome"
+          },
+          {
+            "Value": "ED",
+            "DisplayValue": "Edge"
+          },
+          {
+            "Value": "FF",
+            "DisplayValue": "Firefox"
+          },
+          {
+            "Value": "IE",
+            "DisplayValue": "Internet Explorer"
+          }
+        ],
+        "CellDefaultValue": "ALL"
+      }
+    },
+    "3,0": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "Browser_TC",
+        "RowIndex": 3,
+        "ColumnCount": 9,
+        "RowCount": 17,
+        "ColumnHeaderRowCount": 2,
+        "AllowEditInListview": true,
+        "AlwaysInEditMode": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "ListView1",
+        "TopCondition": null,
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "Browser_TC",
+                "ColumnName": "우선순위"
+              },
+              "Order": 0
+            }
+          ],
+          "Id": "9f5fb40b-5a3c-4066-bf11-8d44dfe236e6"
+        },
+        "CommitType": 1,
+        "ListViewStyleName": "_RS_Light9"
+      }
+    },
+    "5,0": {
+      "BindingInfo": {
+        "TableName": "Browser_TC",
+        "ColumnName": "우선순위"
+      }
+    },
+    "5,1": {
+      "BindingInfo": {
+        "TableName": "Browser_TC",
+        "ColumnName": "체크항목"
+      }
+    },
+    "5,2": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropdownButtonModeInListview": 3,
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "Properties",
+        "ValueColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "Browser_TC",
+        "ColumnName": "결_IE_10"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"〓\"",
+            "StyleInfo": {
+              "Background": "Background 2 -10",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"X\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"O\"",
+            "StyleInfo": {
+              "Background": "Accent 1 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "5,3": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropdownButtonModeInListview": 3,
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "Properties",
+        "ValueColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "Browser_TC",
+        "ColumnName": "결_IE_11"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"■\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Foreground": "Accent 5 0",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"〓\"",
+            "StyleInfo": {
+              "Background": "Background 2 -10",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"X\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"O\"",
+            "StyleInfo": {
+              "Background": "Accent 1 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "5,4": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropdownButtonModeInListview": 3,
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "Properties",
+        "ValueColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "Browser_TC",
+        "ColumnName": "결_CH_123456"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"■\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Foreground": "Accent 5 0",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"〓\"",
+            "StyleInfo": {
+              "Background": "Background 2 -10",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"X\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"O\"",
+            "StyleInfo": {
+              "Background": "Accent 1 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "5,5": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropdownButtonModeInListview": 3,
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "Properties",
+        "ValueColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "Browser_TC",
+        "ColumnName": "결_CH_123478"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"■\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Foreground": "Accent 5 0",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"〓\"",
+            "StyleInfo": {
+              "Background": "Background 2 -10",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"X\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"O\"",
+            "StyleInfo": {
+              "Background": "Accent 1 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "5,6": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropdownButtonModeInListview": 3,
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "Properties",
+        "ValueColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "Browser_TC",
+        "ColumnName": "결_ED_123456"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"■\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Foreground": "Accent 5 0",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"〓\"",
+            "StyleInfo": {
+              "Background": "Background 2 -10",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"X\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"O\"",
+            "StyleInfo": {
+              "Background": "Accent 1 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "5,7": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropdownButtonModeInListview": 3,
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "Properties",
+        "ValueColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "Properties",
+          "ColumnName": "result_type"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "Browser_TC",
+        "ColumnName": "결_FF_123456"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"Block\"",
+            "StyleInfo": {
+              "FontWeight": "Bold",
+              "Foreground": "Accent 5 0",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"〓\"",
+            "StyleInfo": {
+              "Background": "Background 2 -10",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"X\"",
+            "StyleInfo": {
+              "Background": "Accent 5 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"O\"",
+            "StyleInfo": {
+              "Background": "Accent 1 80",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "21,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "UpdateType": 3,
+            "ListviewName": "ListView1"
+          }
+        ],
+        "Text": "결과 제출",
+        "TemplateKey": "_RS_RoundCorner_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "Foreground": 1,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 3,
+        "HorizontalAlignment": 2
+      },
+      {
+        "WordWrap": true,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "HorizontalAlignment": 2,
+        "BorderLeft": 0
+      },
+      {
+        "HorizontalAlignment": 2
+      },
+      {
+        "HorizontalAlignment": 5
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "HorizontalAlignment": 5,
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 0",
+        "Background 1 0",
+        "Center",
+        "Body",
+        "DarkGray",
+        "General"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,4": 0,
+      "1,6": 1,
+      "1,7": 1,
+      "3,0": 2,
+      "3,1": 3,
+      "3,2": 3,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 3,
+      "3,7": 3,
+      "3,8": 4,
+      "4,0": 5,
+      "4,2": 3,
+      "4,3": 3,
+      "4,4": 3,
+      "4,5": 3,
+      "4,7": 6,
+      "4,8": 6,
+      "5,0": 7,
+      "5,2": 8,
+      "5,3": 8,
+      "5,4": 8,
+      "5,5": 8,
+      "5,6": 8,
+      "5,7": 8,
+      "5,8": 6,
+      "6,0": 5,
+      "6,2": 9,
+      "6,3": 9,
+      "6,7": 6,
+      "6,8": 6,
+      "7,0": 5,
+      "7,2": 9,
+      "7,3": 9,
+      "7,7": 6,
+      "7,8": 6,
+      "8,0": 5,
+      "8,8": 6,
+      "9,0": 5,
+      "9,8": 6,
+      "10,0": 5,
+      "10,8": 6,
+      "11,0": 5,
+      "11,8": 6,
+      "12,0": 5,
+      "12,8": 6,
+      "13,0": 5,
+      "13,8": 6,
+      "14,0": 5,
+      "14,8": 6,
+      "15,0": 5,
+      "15,8": 6,
+      "16,0": 5,
+      "16,2": 9,
+      "16,3": 9,
+      "16,7": 6,
+      "16,8": 6,
+      "17,0": 5,
+      "17,2": 9,
+      "17,3": 9,
+      "17,7": 6,
+      "17,8": 6,
+      "18,0": 5,
+      "18,2": 9,
+      "18,3": 9,
+      "18,7": 6,
+      "18,8": 6,
+      "19,0": 10,
+      "19,1": 11,
+      "19,2": 12,
+      "19,3": 12,
+      "19,4": 11,
+      "19,5": 11,
+      "19,6": 11,
+      "19,7": 13,
+      "19,8": 13
+    },
+    "ColStyles": {
+      "2": 8,
+      "3": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "3,2,1,2",
+    "3,4,1,2",
+    "3,6,2,1",
+    "3,7,2,1",
+    "3,1,2,1",
+    "3,0,2,1",
+    "21,5,1,3",
+    "6,0,14,9",
+    "1,6,1,2",
+    "1,4,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//AkLVzvE6cStyKHPohByR3JkP1Kup0CkdizBFoduOEeqkQRfvY5MPlu0gNlwx3QMdHZmY11QdcgKgl5wzpYMZ2lMAFAqHACnVKH+6jHcYdkEoF3EEmVyRbCOFA5dAJ2GaGDqrWJTtB9GF9UIuIlW1qc2wPdMU6uDfIypD3RQdYSfaujuhRVJBl1Y9jLM+/wFGw4aB5XkImkIKuv4+mbMwap4Dl1HQiFAAoB7CtZOfInj+SNfa1aVOL2w+V7dRuXkpojsZVXuhbEdDB6KEFU1qvt5VjAd8ncTk0dPt3zpKuYwjFDCjwRsqYGvrzTKa9xAGcRuotGpxhPh5UfzGyKYLDe1U+zEQUgzu3b+eVG6jFxaqWbI1kDJTruEJEDY2DmILDhcwvqvZ+mjarhUfBYE8kx63YKyL2qgNhFg8v2qQE9HfrbcgSyeKQRho2ALHIGPj7tqA+ZOFe7NozX5zRm0KPdE7o++qiTtXbHSVpz1eQuU3G9dWFzF9GRyUr9711nlqaSRhEZSHyMYpGMe/5rxwFA2tMjefX+LMEks5eGHWqmQbXuTcSnLbdZ5P/Yf6G9e2Q8/oIU2ZHX/qQ21mi2t47o623NszCiCmuQDneM4fzhFhODblLr8fDLYAGuTHP6G2btO7PzONo68lEQicw0lnOKyuZ5jDjP9wCYGuTPlLGZBUJaNHwVA3LHNb88+EMO9A7XhVORMVnELQzKoZNLaVZD9NgPV+8hXHQ7eoL5wPEU+JHxFyqhmwJYVIKIXzoTZvKGvTA4XwjKmKpFpciYqgakxcqbfd6rFZBQjn+ofvK24XMTslcgW74VSbN3RIQNtVEa6fXn/eNL5Kp1eOM1hVkDmrIQ4VGbBic776peV6y4JFtsgCDaFs1/BP+g8nLCl2Ng3cpwS6yxai7rSL5wGKyQ==|920
