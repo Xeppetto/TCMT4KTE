@@ -5,12 +5,32 @@
   },
   {
     "ModuleName": "Table/Properties",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "JAKEPC20180905\\Jake Junghoon Park",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-04-28T19:40:59.4117973+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\웹브라우저별 테스트\\Properties.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Browser_TC",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "JAKEPC20180905\\Jake Junghoon Park",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-04-28T19:40:59.4117973+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\웹브라우저별 테스트\\Browser_TC.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -19,7 +39,17 @@
   },
   {
     "ModuleName": "Table/TestCase_Excel_연동",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "JAKEPC20180905\\Jake Junghoon Park",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-04-28T19:40:59.4117973+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\Excel Import_Export\\TestCase_Excel_연동.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
