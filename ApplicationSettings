@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <AuditingList class="System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" assembly="mscorlib">
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>Properties</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>Browser_TC</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+  </AuditingList>
+  <IntegrateWithOtherApplication>
+    <Password>b&amp;1XRyaa9Ctk</Password>
+  </IntegrateWithOtherApplication>
+  <IsPageInContainerBackgroundHardCodeWhite>True</IsPageInContainerBackgroundHardCodeWhite>
+  <MaxRowCount>10000000</MaxRowCount>
+  <NotAllowModifyDatabaseByJsApi>False</NotAllowModifyDatabaseByJsApi>
+  <StartDateFiscalYear>4</StartDateFiscalYear>
+  <UserServicePort>30688</UserServicePort>
+  <WebSitePort>10762</WebSitePort>
+</ApplicationSettings>

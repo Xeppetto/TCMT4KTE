@@ -1,0 +1,272 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 200.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 200.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 200.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 200.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 200.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 200.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "Values": {
+    "3,9": "내보내기",
+    "6,9": "가져오기"
+  },
+  "AttachInfos": {
+    "3,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "TestCase_Excel_연동",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "ColumnCount": 7,
+        "RowCount": 17,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "리스트뷰1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "3,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
+            "ListViewName": "리스트뷰1",
+            "IsOnlyExportValue": false,
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "내보내기",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "4,1": {
+      "BindingInfo": {
+        "TableName": "TestCase_Excel_연동",
+        "ColumnName": "TC_ID"
+      }
+    },
+    "4,2": {
+      "BindingInfo": {
+        "TableName": "TestCase_Excel_연동",
+        "ColumnName": "대분류"
+      }
+    },
+    "4,3": {
+      "BindingInfo": {
+        "TableName": "TestCase_Excel_연동",
+        "ColumnName": "중분류"
+      }
+    },
+    "4,4": {
+      "BindingInfo": {
+        "TableName": "TestCase_Excel_연동",
+        "ColumnName": "소분류"
+      }
+    },
+    "4,5": {
+      "BindingInfo": {
+        "TableName": "TestCase_Excel_연동",
+        "ColumnName": "사전조건"
+      }
+    },
+    "4,6": {
+      "BindingInfo": {
+        "TableName": "TestCase_Excel_연동",
+        "ColumnName": "진행방법"
+      }
+    },
+    "4,7": {
+      "BindingInfo": {
+        "TableName": "TestCase_Excel_연동",
+        "ColumnName": "기대결과"
+      }
+    },
+    "6,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "가져오기",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderLeft": 0
+      },
+      {
+        "HorizontalAlignment": 1
+      },
+      {
+        "HorizontalAlignment": 1,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "DarkGray",
+        "Center",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "3,1": 0,
+      "3,2": 1,
+      "3,3": 1,
+      "3,4": 1,
+      "3,5": 1,
+      "3,6": 1,
+      "3,7": 2,
+      "4,1": 3,
+      "4,2": 4,
+      "4,3": 4,
+      "4,4": 4,
+      "4,5": 4,
+      "4,6": 4,
+      "4,7": 5,
+      "5,1": 6,
+      "5,6": 7,
+      "5,7": 7,
+      "6,1": 6,
+      "6,6": 7,
+      "6,7": 7,
+      "7,1": 6,
+      "7,6": 7,
+      "7,7": 7,
+      "8,1": 6,
+      "8,6": 7,
+      "8,7": 7,
+      "9,1": 6,
+      "9,6": 7,
+      "9,7": 7,
+      "10,1": 6,
+      "10,6": 7,
+      "10,7": 7,
+      "11,1": 6,
+      "11,6": 7,
+      "11,7": 7,
+      "12,1": 6,
+      "12,6": 7,
+      "12,7": 7,
+      "13,1": 6,
+      "13,6": 7,
+      "13,7": 7,
+      "14,1": 6,
+      "14,6": 7,
+      "14,7": 7,
+      "15,1": 6,
+      "15,6": 7,
+      "15,7": 7,
+      "16,1": 6,
+      "16,6": 7,
+      "16,7": 7,
+      "17,1": 6,
+      "17,6": 7,
+      "17,7": 7,
+      "18,1": 6,
+      "18,6": 7,
+      "18,7": 7,
+      "19,1": 8,
+      "19,2": 9,
+      "19,3": 9,
+      "19,4": 9,
+      "19,5": 9,
+      "19,6": 10,
+      "19,7": 10
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "5,1,15,7",
+    "3,9,2,4",
+    "6,9,2,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//n+lrie3jk2JAjdIOPiSP2Rt7idEXEJz7HaW7zpGRp+2vrMgiXG4+oqmBidVcJoJ9wUqWSR8XJUTs6lc8w46mhcmYTW8IIPUrgv+8juJY6bozvhE3y7xtCKYcgDD6lFUvOQuhS0dalJQup5gC4SZBDiMAK2wmV0APvPNXi+ACLNc5h1TGaM+c6vXQWo/uWj9TmQZCDbefXIKRFreI4uuo8lhiBhy+zaoPTIOejk0dD+StKpSD9+3x7+wbpNzZDQzO8ILZKOhvghjRDaHfd5D19KLQiv4lkMSCr2Se45qZ+Jb1SHB/U3Yo2+n/64Ds7SQthBisnvCOyRVcvqq8gNu3q+FIHirZdZ503eeCsgGqe22pbkQJavM/5WxU4V/yqbNeEdOCUzcZGk8lBzhsa5kdNPAwkCdv+jk8aa41R7qa5sQ6rL/AiJcsvC7aXvzD88KFyyEpXnupQ3MbeITri7GddfQsNh5pr0xbyTF/upWVaQvYiAR5GWBENMabM+L6vWc8CA+ojmsxy3TZ1U2Jb/axu2657B7KndfmI7iT7q4HGtFSU0wLgUKMHUt2/WTJt6Z9oSsbqeZ4MV7Wt02k0amPo7HWRimKPkzqhKr+yFNBhN+zSjlzmcKv2hxhPjyGy99PAHurCE1kgW00YF0W2mJkeEUcxo8Xb99PJlEYCucoaxX3B15q+F36bK/uCxJpZ8Tu0JToy1cA7EqtLGiHm9dC8iqJ53pP6AG+MGO2zUa1HrD0eehf30Pn2RDkLDoPhnt1fhELRpa+ViC8S+byBPJpahRIx5Wu4G+lVDxGfuAfK51Cxa4MjGHWbVk8B4L/JMb1EUglASLLqN78BIToK2MaISTbgcZlEmCVKcixLojbO6YxaHIPTGa6w7XxO366iDD97f4/2EChO45oE9zGkBM6iw==|920
